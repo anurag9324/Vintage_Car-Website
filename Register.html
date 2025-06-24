@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Vintage Car Showroom</title>
+        <style>
+          
+          .border{
+            background-color: rgba(7, 41, 233, 0.815); 
+            margin-left: 35%;
+            margin-right: 35%;
+            border-radius: 30px; 
+            box-shadow: 20px 15px 5px rgba(23, 84, 252, 0.377);
+          }
+          .content{
+            margin-top: 6px; 
+            margin-bottom: 18px; 
+            margin-left: 10%;
+          }
+         input{
+          width: 80%;
+          margin: 10px 0;
+          border-width: 4px;
+          border-color: rgb(106, 106, 247);
+          border-radius: 30px;
+          padding: 10px;
+         }
+         b{
+          margin-left: 20px;
+         }
+         button{
+          color: rgb(38, 0, 255);
+          border: 2px;
+          border-style: groove;
+          border-color: rgb(0, 4, 247);
+          border-radius: 8px;
+          margin-left: 10px; 
+          margin-top: 3px;
+          margin-bottom: 6px; 
+         }
+         button:hover{
+          font-size: 15px;
+          background-color: rgb(17, 206, 253);
+         }
+        </style>
+    </head>
+    <body background="img/register.webp" style=" color:rgb(234, 234, 243);background-color: rgb(2, 2, 3);">
+        <aside>
+            <img src="img/logo.jpg" width=110 height=81 >
+        </aside> 
+        <header>RETROCARS</header> 
+        <div class="bar">
+            <a id="H" href="home.html">  Home    </a> 
+            <a id="A" href="About_Us.html">  About US  </a>
+            <a id="C" href="Contact.html">  Contact US   </a>
+            <a id="R">  Register    </a>
+            <a id="P" href="Product.html">  Product     </a>
+        </div>
+        <form >
+          <br>
+          <div class="border">
+            
+            <div  class="content">
+              <br>
+              <h1 style="margin-left: 100px; color: rgb(248, 250, 255);">Register</h1>
+              <br> 
+              <label for="username"><b>Username</b></label><br>
+              <input type="text" placeholder="Enter username"  required/>
+                <br>
+              <label for="email"><b>Email</b></label><br>
+              <input type="text" placeholder="Enter Email" name="email" required/>
+                <br>
+              <label for="pwd"><b>Password</b></label><br>
+              <input type="password"placeholder="Enter Password" name="pwd" required/>
+                <br>
+              <label for="pwd-repeat"><b>Repeat Password</b></label><br>
+              <input type="password" placeholder="Repeat Password" name="pwd-repeat"  required/>
+                <br>
+              <button type="submit"> Register</button>
+            <div>
+              <p>Already have an account? <a href="Login.html" style="font-size:20px;color: aliceblue;">Log in</a></p>
+              <br>
+            </div>
+            </div>
+          </div>
+          </form>
+        <div class="footer">
+            <b>Copyright @2023 RETROCARS</b>
+        </div>
+    </body>

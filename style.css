@@ -1,0 +1,87 @@
+
+*{
+  margin: 0;
+} 
+
+aside{
+    float:left;
+  }
+
+header{
+     background-color:rgb(6, 0, 95);
+     font-family: serif;
+     font-size: 50px;
+     color:rgb(240, 236, 11);
+     text-align: center;
+     padding: 11px;
+  }
+
+.bar{ 
+  font-family: 'Arial, Helvetica, sans-serif';
+  background-color: rgb(6, 110, 247);
+  padding:10px;
+  text-align: center; 
+}
+
+#H{
+  color:rgb(6, 0, 39);
+  font-weight: bolder;
+  text-decoration: solid;
+  padding:20px;
+}
+
+#C{
+  color:rgb(6, 0, 39);
+  font-weight: bolder;
+  text-decoration: solid;
+  padding:20px;
+}
+
+#A{
+  color:rgb(6, 0, 39);
+  font-weight: bolder;
+  text-decoration: solid;
+  padding:20px;
+}
+
+#R{
+  color:rgb(6, 0, 39);
+  font-weight: bolder;
+  text-decoration: solid;
+  padding:20px;
+}
+
+#P{
+  color:rgb(6, 0, 39);
+  font-weight: bolder;
+  text-decoration: solid;
+  padding:20px;
+}
+
+.bar :hover{
+  background-color: rgb(211, 244, 248);  
+  font-size: 20px; 
+  border-radius: 10px;
+  }
+
+.footer{
+  background-color:rgb(14, 28, 224);
+  height: 5px; 
+  color: rgb(181, 187, 202);
+  padding-top: 6px;
+  padding-bottom: 18px;
+  padding-left: 80%;
+  }
+
+.slider{
+    width: 40%;
+    height: 350px;
+    box-shadow: 5px 5px 100px rgb(1, 24, 230);
+    float: right;
+    margin-right: 8%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+

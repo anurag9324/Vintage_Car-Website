@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Vintage Car Showroom</title>
+        <style>
+            .container{
+                margin-left:32%;
+                margin-right: 32%; 
+                margin-top: 20px;
+                padding: 30px 40px;
+                background-color: rgb(237, 243, 204);
+                box-shadow: 10px 10px 10px rgb(0, 17, 255);
+                border-radius: 40px;
+            }
+            input{
+              border-width: 4px;
+              border-color: blue;
+              border-radius: 6px;
+              padding: 5px;
+            }
+            label{
+              font-size: large;
+              font-weight: bold;
+            }
+            body{color: rgb(93, 93, 255);}
+            p{ 
+              margin: 4px;
+            }
+            .footer{
+              margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body background="img/contact.jpg">
+        <aside>
+            <img src="img/logo.jpg" width=110 height=81 alt="im age" >
+        </aside>
+        <header>RETROCARS</header> 
+        <div class="bar">
+            <a id="H" href="home.html">  Home    </a> 
+            <a id="A" href="About_Us.html">  About US  </a>
+            <a id="C">  Contact US   </a>
+            <a id="R" href="Register.html">  Register    </a>
+            <a id="P" href="Product.html">  Product     </a>
+        </div>
+        <div class="border">
+            <div class="container">
+                  <h1 >CONTACT US</h1>
+                  <br>
+                  <h3>Email:- retrocars@gmail.com</h3>
+                  <h3>Contact:- +91 8845885623</h3>
+                <br>
+                <div style="background-color: rgb(32, 9, 245); width: 390px; height: 5px; "></div>
+                <br>
+                  <form >
+                    
+                        <p>
+                          <label> Name</label>
+                          <input type="text" name="name"  placeholder="Name"/>
+                        </p>
+                        
+                      <br>
+                        <p>
+                          <label>Email </label>
+                          <input type="email" name="email" placeholder="abc@gmail.com" />
+                        </p>
+                        <label>Comment</label>
+                        <br>
+                        <textarea cols="50" rows="5" value="address"></textarea>
+                        <br> <br>
+                        <input class="submit" type="submit" value="Submit" />
+                </div>
+            </div>
+        </div>
+        <div class="footer" style="margin-top: 33px;">
+            <b>Copyright @2023 RETROCARS</b>
+        </div>
+    </body>
